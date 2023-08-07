@@ -1,9 +1,13 @@
-# Getting Started with Create React App
+# Various projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It consists of a space where you save mini projects:
+- ###### ToDo List (add, update, save and delete tasks)
+
+- ###### Calculator (add, subtract, divide, multiply)
 
 ## Available Scripts
-
+### Installing
+### `npm install`
 In the project directory, you can run:
 
 ### `npm start`

@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  :root{
+    --fondo: #17171C;
+    --fondo-calculadora: #F1F2F3;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    --texto:#000000;
+
+    --primario:#4B5EFC;
+    --secundario:#9e9fa4;
+    --terciario:#ffff;
+    --verde: #0BFC57;
+    --rojo:#ff0808;
+    --general:#00FFF3;
+
+    --peach: #f97072;
+    --blue: #060e6c;
+    --dark-blue: #151932;
+    --bluish-gray: #d7e0ff;
+    --input-gray: #eef1fa;
+    --font-1: "Google sans", sans-serif;
+    --cyan: #70f2f8;
+    --purple: #da81f8;
+     --accent: #d24a4e;
+    --todo-bg-main: hsl(235, 24%, 19%);
+    --c-active: #275EFE;
+    --c-active-inner: #FFFFFF;
+    --c-default: #D2D6E9;
+    --c-default-dark: #C7CBDF;
+    --c-black: #1B1B22;
+    --light-gray: hsl(234, 11%, 52%);
+
+    --box-shadow:0 0 50px rgba(0,0,0,0.20)
+
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  *{
+    margin: 0;
+    padding: 0;
+  
   }
-  to {
-    transform: rotate(360deg);
+  
+  body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgb(185, 185, 189), #006eff);
+    font-family: var(--font-1);
   }
-}

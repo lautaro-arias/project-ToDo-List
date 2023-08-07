@@ -1,0 +1,45 @@
+.main{
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+.calculadora{
+    background-color: var(--fondo);
+    aspect-ratio: 9/16;
+    border-radius: 40px;
+    height: 70%;
+    min-height: 400px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    padding: .7rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+
+
+.resultado{
+    font-size: 3rem;
+    grid-column: span 4;
+    text-align: right;
+    border: none;
+    background-color:var(--fondo);
+    padding: 0 .5rem;
+    height: 3rem;
+    COLOR:var(--general);
+    
+}
+
+
+.display{
+    COLOR:var(--secundario);
+    font-size: 1.5rem;
+    grid-column: span 4;
+    text-align: right;
+    border: none;
+    background-color:var(--fondo);
+    padding: 0 .5rem;
+    height: 2rem;
+}

@@ -1,0 +1,43 @@
+button {
+    border:none;
+    border-radius:1rem;
+    background-color: none;
+    font-size: 1.2rem;
+    aspect-ratio: 1 / 1;
+    box-shadow:  0 0 12px #fff;
+
+}
+
+button:active {
+    transform: scale(1.02);
+}
+button:hover {
+  background: #ffffff;
+  box-shadow: none;
+}
+
+.operation{
+        background-color: #fffbac;
+        box-shadow:  0 0 12px #ff0;
+    
+}
+.operation:hover {
+    background: #fffbac;
+    box-shadow: none;
+  }
+
+
+.gris {
+    background-color: #acffff;
+    box-shadow:  0 0 12px #0ff;
+  }
+
+.gris:hover {
+    background: #acffff;
+    box-shadow: none;
+  }
+
+
+
+
+
