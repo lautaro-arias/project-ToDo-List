@@ -21,9 +21,6 @@ const MainMenu: React.FC = () => {
                       <li className="nav-item">
                       <Link to="/main" className="mx-4 navbar-brand justify-content-center" >Tareas</Link>
                       </li>
-                      <li className="nav-item">
-                      <Link to="/calculadora" className="mx-4 navbar-brand justify-content-center">Calculadora</Link>
-                      </li>
                     </ul>
                   </div>
               </div>

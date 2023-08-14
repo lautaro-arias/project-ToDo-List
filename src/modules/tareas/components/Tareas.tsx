@@ -90,6 +90,8 @@ const Tareas = ({ tarea, onActualizarTarea, onBorrarTarea }: TareaProps) => {
                 <button className="delete-button  mt-2 mx-2" onClick={() => onBorrarTarea(tarea.id)}>Borrar</button> 
               </div>    
          </div>
+         
+        
       </>
     )
 

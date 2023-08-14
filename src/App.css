@@ -42,6 +42,7 @@
   body{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top, rgb(185, 185, 189), #006eff);
+    background-color: #ffffff;
     font-family: var(--font-1);
   }
+ 
